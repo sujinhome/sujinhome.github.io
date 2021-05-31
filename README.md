@@ -1,126 +1,31 @@
-![Sustain - Logo][logo]
+A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
-## Table of Contents
+I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-    - [With `git`](#with-git)
-    - [Manual](#manual)
-- [Quick start](#quick-start)
-- [Features](#features)
-  - [Syntax highlighting](#syntax-highlighting)
-  - [Disqus](#disqus)
-  - [Google Analytics](#google-analytics)
-- [About](#about)
-- [Contributing](#contributing)
-- [License](#license)
+### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
-********************
+# Instructions
 
-![Sustain Screen][screenshot]
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+1. Check status by going to the repository settings, in the "GitHub pages" section
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-********************
+See more info at https://academicpages.github.io/
 
-<p align="center"><b><a href="https://demo.nurlan.co/hugo-sustain/">Sustain Live Demo</a></b></p>
+## To run locally (not on GitHub Pages, to serve on your own computer)
 
-## Installation
+1. Clone the repository and made updates as detailed above
+1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
+1. Run `bundle clean` to clean up the directory (no need to run `--force`)
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
 
-#### With `git`
+# Changelog -- bugfixes and enhancements
 
-From the root of your Hugo site, clone the theme into `themes/hugo-sustain` by running :
+There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
 
-```sh
-git clone https://github.com/nurlansu/hugo-sustain.git themes/hugo-sustain
-```
-
-#### Manual
-
-1. [Download][zip-archive] zip archive.
-2. Unarchive it.
-3. Move `hugo-sustain` folder in `themes` folder of your blog
-
-For more information read the official [setup guide][hugo-guide] of Hugo.
-
-## Quick start
-
-After installation, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. It serves as an example setup for your documentation.
-
-```
-  exampleSite
-  ├── config.toml
-  ├── content
-  │   ├── projects.md
-  │   │
-  │   └── blog
-  │       ├── creating-a-new-theme.md
-  │       ├── go-is-for-lovers.md
-  │       ├── hugo-is-for-lovers.md
-  │       └── migrate-from-jekyll.md
-  │
-  ├── data
-  │   └── projects.yml
-  │
-  └── static
-```
-
-Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
-
-Hugo includes a development server, so you can view your changes as you go -
-very handy. Spin it up with the following command:
-
-```sh
-hugo serve
-```
-
-Now you can go to [localhost:1313][local] and the Sustain
-theme should be visible.
-
-## Features
-
-### Syntax highlighting
-
-Use `highlight = true` in the front matter to include [`highlight.js`][highlight-js] javascript and css files.
-
-### Disqus
-
-To use this feature, uncomment and fill out the `disqusShortname` parameter in `config.toml`.
-
-### Google Analytics
-
-To add Google Analytics, simply sign up to [Google Analytics][g-analytics] to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
-
-## About
-
-This is a port of the Jekyll theme [Sustain][sustain-jekyll] by [Fábio Madeira][sustain-author]. It supports most of the features of the original theme.
-
-## Contributing
-
-Pull requests, bug fixes, and new features are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -a -m 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request on GitHub
-
-## License
-
-<p align="center">
-  <a href="./LICENSE.md"><img src="https://nurlan.co/cdn/logo.svg" width="100%" height="128"></a>
-  <a href="./LICENSE.md"><strong>MIT</strong></a>
-</p>
-
-
-
-[logo]: https://nurlan.co/cdn/sustain.png
-[screenshot]: https://nurlan.co/cdn/sustain-screen.png
-[bootstrap]: https://getbootstrap.com/
-[hugo]: https://gohugo.io/
-[gh-pages]: https://pages.github.com/
-[zip-archive]: https://github.com/nurlansu/hugo-sustain/archive/master.zip
-[hugo-guide]: https://gohugo.io/overview/installing/
-[local]: http://localhost:1313/
-[highlight-js]: https://highlightjs.org/
-[g-analytics]: https://www.google.com/analytics/
-[sustain-jekyll]: https://github.com/biomadeira/sustain/
-[sustain-author]: https://github.com/biomadeira/
+To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
