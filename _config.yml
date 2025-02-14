@@ -190,12 +190,12 @@ newsletter:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: #/projects/:path/
   teaching:
     defaults:
       layout: post
     output: true
-    permalink: /teaching/:path/
+    permalink: #/teaching/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
