@@ -28,7 +28,7 @@ h1 {
 
 <h1>Contact Information</h1>
 
-Email: <a href="lee.9962@osu.edu">lee.9962@osu.edu</a>
+Email: <a href="lee.9962@osu.edu">lee.9962@osu.edu</a><br>
 Address: 410 Arps Hall, 1945 N High Street, Columbus, OH 43210<br>
 
 <h1>Work in Progress</h1>
