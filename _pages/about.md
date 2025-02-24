@@ -39,12 +39,32 @@ Address: 410 Arps Hall, 1945 N High Street, Columbus, OH 43210<br>
   <li>Long-Term Effects of Financial Education in High School on Business Ownership</li>
   <li>AI Adoption and Gender Disparities in the Workforce (with Tian Lou and Bruce Weinberg)</li>
   <li>The Impact of Restricting Large Retailer Operation Days on Independent Retailers and Consumers: Evidence from South Korea (with Marco Gonzalez-Navarro and Jaecheol Lee)</li>
+  <ul>
+    <li>Presentations: UEA 2023 (Toronto), PacDev 2025, UEA 2025 (Berlin)</li> 
+  </ul>
+</ul>
+
+<h1>Pre-Doctoral Publications</h1>
+
+<ul>
+  <li>The Effect of COVID-19 Stimulus Payments on Household Spending (with Chulhee Lee) <i>Korean Journal of Social Policy</i>, 51, 2022, 60-88 (in Korean, non-peer reviewed).</li>
+  <li>The Effect of Child Support Payment Coupons in Response to COVID-19 on Household Spending (with Chulhee Lee), <i>The Korean Journal of Economics Studies</i>, 69(3), 2021, 5-54 (in Korean).</li>
 </ul>
 
 <h1>Teaching</h1>
 
 <ul>
-  <li>Principle of Microeconomics, Independent Instructor, The Ohio State University</li>
-  <li>Population and Economy, Teaching Assistant, Seoul National University</li>
-  <li>Economic History, Teaching Assistant, Seoul National University</li>
+  <li>The Ohio State University</li>
+  <ul>
+    <li>Principle of Microeconomics, Independent Instructor, SU 2023</li>
+    <li>Principle of Microeconomics, Teaching Assistant, FA 2023</li>
+    <li>Principle of Macroeconomics, Teaching Assistant, FA 2023</li>
+    <li>Health Economics, Teaching Assistant, FA 2022</li>
+    <li>Intermediate Microeconomic Theory with Calculus, Teaching Assistant, FA 2022</li>
+  </ul>
+  <li>Seoul National University</li>
+  <ul>
+    <li>Economic History, Teaching Assistant, FA 2019, FA 2020</li>
+    <li>Population and Economy, Teaching Assistant, SP 2020</li>
+  </ul>
 </ul>
