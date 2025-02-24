@@ -24,7 +24,11 @@ I am a PhD candidate in the Department of Economics at The Ohio State University
 h1 {
   font-size: 24px;
 }
+h3 {
+  font-size: 14px;
+}
 </style>
+
 
 <h1>Contact Information</h1>
 
@@ -40,7 +44,7 @@ Address: 410 Arps Hall, 1945 N High Street, Columbus, OH 43210<br>
   <li>AI Adoption and Gender Disparities in the Workforce (with Tian Lou and Bruce Weinberg)</li>
   <li>The Impact of Restricting Large Retailer Operation Days on Independent Retailers and Consumers: Evidence from South Korea (with Marco Gonzalez-Navarro and Jaecheol Lee)</li>
   <ul>
-    <li>Presentations: UEA 2023 (Toronto), PacDev 2025, UEA 2025 (Berlin)</li> 
+    <li><h3>Presentations: UEA 2023 (Toronto), PacDev 2025, UEA 2025 (Berlin)</h3></li> 
   </ul>
 </ul>
 
