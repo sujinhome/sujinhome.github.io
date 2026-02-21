@@ -1,0 +1,11 @@
+<h1>Teaching</h1>
+<ul>
+{%- for inst in site.data.teaching %}
+  <li>{{ inst.institution }}</li>
+  <ul>
+  {%- for course in inst.courses %}
+    <li>{{ course.name }}, {{ course.role }}, {{ course.term }}</li>
+  {%- endfor %}
+  </ul>
+{%- endfor %}
+</ul>

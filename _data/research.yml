@@ -1,0 +1,42 @@
+- title: "[JMP] Beyond Jack of All Trades: Business Experience and the Self-Employment Entry and Outcomes Across Venture Types"
+  type: working_paper
+  presentations: "SEA 2025"
+
+- title: "Restricting Large Retailers: Evidence from South Korea"
+  type: working_paper
+  paper: "/assets/papers/Mandatory_closure.pdf"
+  authors:
+    - name: "Marco Gonzalez-Navarro"
+    - name: "Jaecheol Lee"
+  status: "Submitted"
+  presentations: "UEA 2023 (Toronto), PacDev 2025, UEA 2025 (Berlin), Ohio State University"
+  abstract: "Regulations that restrict the operating days of large firms are often justified as a means of protecting small competitors. We study South Korea's mandatory shutdown policy, which requires large retail chains to close one day every other week, and quantify how consumer spending adjusts along multiple margins. Using high-frequency transaction data and exploiting within-month variation in closure schedules, we document four substitution channels: diversion to independent retailers, substitution toward other unrestricted retail formats, intertemporal shifting within restricted chains, and spatial substitution across districts with different closure calendars. Only a small share of displaced spending is redirected to independent retailers, while most adjustment occurs through intertemporal substitution within restricted chains and diversion to other unrestricted retail formats operated by large chains. We find no evidence that the policy improves the long-run survival of independent retailers. Mapping observed substitution patterns into a discrete-choice framework, we estimate that consumer welfare losses from restricted access exceed the gains accruing to small retailers by a factor of 2.7, highlighting a fundamental trade-off inherent in protective regulation."
+
+- title: "Can Self-Employment Provide a Lifeline for Struggling Workers?"
+  type: work_progress
+
+- title: "Long-Term Effects of Financial Education in High School on Business Ownership"
+  type: work_progress
+
+- title: "AI Adoption and Gender Disparities in the Workforce"
+  type: work_progress
+  authors:
+    - name: "Tian Lou"
+    - name: "Bruce Weinberg"
+  presentations: "U Chicago"
+
+- title: "The Effect of COVID-19 Stimulus Payments on Household Spending"
+  type: pre_doc_pub
+  authors:
+    - name: "Chulhee Lee"
+  journal: "Korean Journal of Social Policy"
+  detail: "51, 2022, 60-88 (in Korean, non-peer reviewed)."
+
+- title: "The Effect of Child Support Payment Coupons in Response to COVID-19 on Household Spending"
+  type: pre_doc_pub
+  paper: "https://kea.ne.kr/eng/38/jrnl/18/4977/view"
+  authors:
+    - name: "Chulhee Lee"
+  journal: "The Korean Journal of Economics Studies"
+  detail: "69(3), 2021, 5-54 (in Korean)."
+  abstract: "This paper examines the household spending effects of child support payment coupons in South Korea, which were granted to subsidize households suffering from COVID-19. The results of difference-in-differences estimation suggest that child support payment coupons increased household spending by a weekly average of 22,355 South Korean Won (KRW) over 10 weeks, which is 8.8% of the treatment group's average consumption for the period of analysis. Child support payment coupons have positive impacts on supporting both children and small-scale business-owners. The effect on household spending is shown to be significantly larger for low-income households, compared to that of the top 20% of households. We find that coupon redemption replaces some of the household spending that would occur if there was no support from the government. The size of the net effect (weekly average of 22,355 KRW over 10 weeks) is determined by the difference between coupon redemption (57,620 KRW) and the size of the substitution effect (35,256 KRW). These results imply that the net effect of the coupons is estimated to be approximately 39% of the coupon redemption for 10 weeks. We also discuss the implications of our findings on the effects and design of government subsidies."

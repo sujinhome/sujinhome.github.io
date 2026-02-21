@@ -4,19 +4,33 @@
 
 // Typography
 
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+}
+
 p,
+em,
+div,
+li,
+span {
+  color: var(--global-text-color);
+  font-weight: 400;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-em,
-div,
-li,
-span,
+h6 {
+  color: var(--global-text-color);
+  font-weight: 600;
+}
+
 strong {
   color: var(--global-text-color);
+  font-weight: 600;
 }
 
 hr {
@@ -188,6 +202,39 @@ ul.task-list input[type="checkbox"] {
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+}
+
+// About grid
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.about-photo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  img {
+    max-width: 70%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: 60% center;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-photo {
+    order: -1;
+    justify-content: center;
+  }
 }
 
 // Profile
@@ -541,6 +588,8 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  font-size: 2.5rem;
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -828,6 +877,43 @@ footer.sticky-bottom {
     }
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
+    }
+  }
+}
+
+// Research list
+ul.research-list {
+  .paper-title {
+    font-weight: 600;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-text-color);
+      }
+    }
+  }
+
+  a.coauthor {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-text-color);
+    }
+  }
+
+  .abstract-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    margin-top: 0.5rem;
+    text-align: justify;
+
+    &.open {
+      max-height: 50em;
+      opacity: 1;
     }
   }
 }
