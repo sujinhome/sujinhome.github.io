@@ -2,15 +2,15 @@
   type: working_paper
   presentations: "SEA 2025"
 
-- title: "Restricting Large Retailers: Evidence from South Korea"
+- title: "Restricting Large Firms to Protect Small Businesses: Evidence from Retail Operating-Day Restrictions"
   type: working_paper
   paper: "/assets/papers/Mandatory_closure.pdf"
   authors:
     - name: "Marco Gonzalez-Navarro"
     - name: "Jaecheol Lee"
-  status: "Submitted"
+  #status: "Submitted"
   presentations: "UEA 2023 (Toronto), PacDev 2025, UEA 2025 (Berlin), Ohio State University"
-  abstract: "Regulations that restrict the operating days of large firms are often justified as a means of protecting small competitors. We study South Korea's mandatory shutdown policy, which requires large retail chains to close one day every other week, and quantify how consumer spending adjusts along multiple margins. Using high-frequency transaction data and exploiting within-month variation in closure schedules, we document four substitution channels: diversion to independent retailers, substitution toward other unrestricted retail formats, intertemporal shifting within restricted chains, and spatial substitution across districts with different closure calendars. Only a small share of displaced spending is redirected to independent retailers, while most adjustment occurs through intertemporal substitution within restricted chains and diversion to other unrestricted retail formats operated by large chains. We find no evidence that the policy improves the long-run survival of independent retailers. Mapping observed substitution patterns into a discrete-choice framework, we estimate that consumer welfare losses from restricted access exceed the gains accruing to small retailers by a factor of 2.7, highlighting a fundamental trade-off inherent in protective regulation."
+  abstract: "Governments often try to protect small businesses by restricting larger rivals rather than subsidizing them directly. Whether such policies achieve their objectives depends on how much displaced demand is actually transferred to the intended beneficiaries, a question that requires tracing substitution toward other days, locations, or unregulated sellers, yet direct evidence on these margins remains limited. We study South Korea's policy requiring large retail chains to close two days per month, which provides predetermined variation in closure schedules across districts and weeks. Using high-frequency card-transaction data, we estimate that only 18 percent of displaced spending is redirected to small, independent retailers; larger shares are recouped by restricted chains on other shopping days or diverted to other unrestricted retail formats, many of them operated by large firms. Consistent with these limited transfers, we find no evidence that the policy improves the long-run survival of independent retailers. Mapping the observed substitution patterns into a discrete-choice framework identified by policy-induced variation in travel time to open stores, we estimate that the consumer welfare losses from restricted access are 2.7 times larger than the gains accruing to independent retailers. These findings suggest that restricting large firms can impose meaningful consumer costs while providing little durable support to the small businesses such policies are intended to protect."
 
 - title: "Can Self-Employment Provide a Lifeline for Struggling Workers?"
   type: work_progress

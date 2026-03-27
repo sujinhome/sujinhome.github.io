@@ -18,9 +18,9 @@ profile:
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the Department of Economics at The Ohio State University. I am an applied microeconomist with research interests in **labor economics** and **entrepreneurship**. My current research focuses on self-employment entry, exit, and outcomes, as well as the measurement of skills.
+I am a PhD candidate in the Department of Economics at The Ohio State University. I am an applied microeconomist with research interests in **labor economics** and **entrepreneurship**. My current research focuses on the determinants of self-employment entry, exit, and outcomes, the effects of regulations on small businesses and consumers, and the measurement of skills.
 
-<span style="color: var(--global-theme-color);">I am on the 2026-2027 job market.</span>
+<!-- <span style="color: var(--global-theme-color);">I am on the 2026-2027 job market.</span> -->
 
 <style>
 h1 {
@@ -35,7 +35,7 @@ h3 {
 <h1>Contact Information</h1>
 
 Email: <a href="mailto:lee.9962@osu.edu">lee.9962@osu.edu</a><br>
-Address: 410 Arps Hall, 1945 N High Street, Columbus, OH 43210<br>
+Address: 311 Bricker Hall, 190 N Oval Mall, Columbus, OH 43210<br>
 
 <!-- end-intro -->
 
