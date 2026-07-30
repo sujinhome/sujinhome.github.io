@@ -13,9 +13,9 @@
     {%- if paper.online_appendix %}<br><a href="{{ paper.online_appendix }}">[Online Appendix]</a>{%- endif %}
     {%- if paper.status or paper.presentations or paper.abstract %}
     <ul>
+      {%- if paper.abstract %}<li><a href="javascript:void(0);" class="abstract-toggle">[abstract ↓]</a><div class="abstract-content">Abstract: {{ paper.abstract }}</div></li>{%- endif %}
       {%- if paper.status %}<li>{{ paper.status }}</li>{%- endif %}
       {%- if paper.presentations %}<li>{%- if paper.presentations contains "," %}Presentations{%- else %}Presentation{%- endif %}: {{ paper.presentations }}</li>{%- endif %}
-      {%- if paper.abstract %}<li>Abstract: {{ paper.abstract }}</li>{%- endif %}
     </ul>
     {%- endif %}
   </li>
@@ -32,9 +32,9 @@
     {%- if paper.authors %} (with {% for a in paper.authors %}{%- assign coauthor = site.data.coauthors[a.name] %}{%- if coauthor.url %}<a href="{{ coauthor.url }}" class="coauthor">{{ a.name }}</a>{%- else %}{{ a.name }}{%- endif %}{%- unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{%- endunless %}{%- endfor %}){% endif %}
     {%- if paper.journal or paper.detail %}<br>{%- if paper.journal %}<i>{{ paper.journal }}</i>{%- endif %}{%- if paper.journal and paper.detail %}, {% endif %}{%- if paper.detail %}{{ paper.detail }}{%- endif %}{%- endif %}
     {%- if paper.online_appendix %} <a href="{{ paper.online_appendix }}">[online appendix]</a>{%- endif %}
-    {%- if paper.abstract %} <a href="javascript:void(0);" class="abstract-toggle">[abstract ↓]</a><div class="abstract-content">Abstract: {{ paper.abstract }}</div>{%- endif %}
-    {%- if paper.status or paper.presentations %}
+    {%- if paper.status or paper.presentations or paper.abstract %}
     <ul>
+      {%- if paper.abstract %}<li><a href="javascript:void(0);" class="abstract-toggle">[abstract ↓]</a><div class="abstract-content">Abstract: {{ paper.abstract }}</div></li>{%- endif %}
       {%- if paper.status %}<li>{{ paper.status }}</li>{%- endif %}
       {%- if paper.presentations %}<li>{%- if paper.presentations contains "," %}Presentations{%- else %}Presentation{%- endif %}: {{ paper.presentations }}</li>{%- endif %}
     </ul>
@@ -53,11 +53,12 @@
     {%- if paper.authors %} (with {% for a in paper.authors %}{%- assign coauthor = site.data.coauthors[a.name] %}{%- if coauthor.url %}<a href="{{ coauthor.url }}" class="coauthor">{{ a.name }}</a>{%- else %}{{ a.name }}{%- endif %}{%- unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{%- endunless %}{%- endfor %}){% endif %}
     {%- if paper.journal or paper.detail %}<br>{%- if paper.journal %}<i>{{ paper.journal }}</i>{%- endif %}{%- if paper.journal and paper.detail %}, {% endif %}{%- if paper.detail %}{{ paper.detail }}{%- endif %}{%- endif %}
     {%- if paper.online_appendix %} <a href="{{ paper.online_appendix }}">[online appendix]</a>{%- endif %}
-    {%- if paper.abstract %} <a href="javascript:void(0);" class="abstract-toggle">[abstract ↓]</a><div class="abstract-content">Abstract: {{ paper.abstract }}</div>{%- endif %}
-    {%- if paper.status or paper.presentations %}
+    {%- if paper.abstract and paper.abstract_open != true %} <a href="javascript:void(0);" class="abstract-toggle">[abstract ↓]</a><div class="abstract-content">Abstract: {{ paper.abstract }}</div>{%- endif %}
+    {%- if paper.status or paper.presentations or paper.abstract_open %}
     <ul>
       {%- if paper.status %}<li>{{ paper.status }}</li>{%- endif %}
       {%- if paper.presentations %}<li>{%- if paper.presentations contains "," %}Presentations{%- else %}Presentation{%- endif %}: {{ paper.presentations }}</li>{%- endif %}
+      {%- if paper.abstract and paper.abstract_open %}<li>Abstract: {{ paper.abstract }}</li>{%- endif %}
     </ul>
     {%- endif %}
   </li>

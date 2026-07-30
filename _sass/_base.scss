@@ -6,7 +6,9 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  text-align: justify;
+  // Left-aligned rather than justified: without hyphenation, justification
+  // stretches word spacing and opens rivers, worst in narrow columns.
+  text-align: left;
 }
 
 p,
@@ -903,18 +905,35 @@ ul.research-list {
     }
   }
 
+  // Same colour as the surrounding metadata: these repeat once per paper, and
+  // in accent colour they pull attention away from the titles. The brackets and
+  // arrow carry the affordance; accent on hover confirms it.
+  a.abstract-toggle {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
   .abstract-content {
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height 0.4s ease, opacity 0.3s ease;
-    margin-top: 0.5rem;
-    text-align: justify;
+    transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.4s ease;
+    // No margin while collapsed: a zero-height box still spaces out the bullet
+    // that follows it.
+    margin-top: 0;
+    text-align: left;
 
+    // Generous cap: a long abstract wraps to many more lines on narrow screens,
+    // and `overflow: hidden` would clip it.
     &.open {
-      max-height: 50em;
+      max-height: 200em;
       opacity: 1;
+      margin-top: 0.5rem;
     }
+
   }
 }
 
