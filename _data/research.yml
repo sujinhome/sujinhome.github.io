@@ -1,29 +1,127 @@
-- title: "[JMP] Beyond Jack of All Trades: Business Experience and the Self-Employment Entry and Outcomes Across Venture Types"
+# Order within each type is the order shown on the page.
+# Abstracts sit behind an [abstract ↓] toggle.
+
+- title: "[JMP] Beyond the Jack-of-All-Trades Hypothesis: The Importance of Business and Specialized Skills for Self-Employment Entry and Success"
   type: working_paper
-  presentations: "SEA 2025"
+  paper: "/assets/papers/LeeSujin_JMP_beyond_JOAT_hypothesis.pdf"
+  presentations: "Southern Economic Association 2025, Cleveland Fed–OSU Micro-Macro Workshop 2026, Ohio State University"
+  abstract: >-
+    Lazear's (2004) jack-of-all-trades hypothesis holds that balanced skills promote both entry into and
+    success in entrepreneurship. A number of empirical analysts have tested this idea using occupation
+    counts or employer counts as a proxy for skill balance, while also defining entrepreneurship as any
+    form of self-employment. I introduce three extensions to this literature. First, I argue that what
+    matters is not "skill balance" per se, but two particular kinds of skill: business skills and the
+    specialized expertise a given business requires. Second, I argue that it is important to distinguish
+    between basic (unincorporated, low-capital) and advanced (incorporated, capital-intensive)
+    self-employment because the latter is more likely to approximate Lazear's concept of entrepreneurship.
+    Third, I argue that tests of Lazear's hypothesis should measure skill balance more directly. Using
+    nearly forty years of NLSY79 work histories linked to O*NET, I construct time-in-occupation-weighted
+    measures of business skills, specialized skills, and skill balance, and use them as key regressors in
+    models of the decision to transition into either basic or advanced self-employment, as well as models
+    of "success" (measured by earnings, revenue, and how spells end) of self-employment spells. I find
+    support for all three extensions. Skill content matters, and its payoff depends on the type of
+    business: business skills predict entry into advanced self-employment while discouraging entry into
+    basic self-employment, and raise revenue only among advanced businesses. Specialized skills reduce
+    entry into both types but are the strongest predictor of earnings and revenue among those who do
+    enter. Measured directly, skill balance predicts neither entry nor success. The conventional
+    occupation count, by contrast, does predict entry into basic self-employment, but partly because it
+    reflects involuntary job loss rather than accumulated skill. These findings imply that preparation for
+    business ownership comes from accumulating business and specialized skills, not from balance across
+    unrelated domains.
+
+- title: "Can a High School Personal Finance Course Reduce the Gender Gap in Being Unbanked?"
+  type: working_paper
+  paper: "/assets/papers/LeeSujin_Paper_unbanked.pdf"
+  abstract: >-
+    Among unpartnered young adults in the United States—whose banking status reflects their own financial
+    decisions rather than a partner's—women are significantly more likely than men to be unbanked, even
+    after accounting for income and education. I determine whether state-mandated high school personal
+    finance courses reduce this gender gap, and if so, through what mechanisms. Using the FDIC National
+    Survey of Unbanked and Underbanked Households (2009–2023) and a heterogeneity-robust
+    difference-in-differences estimator, I estimate that mandates reduce the likelihood of being unbanked
+    for both women and men, but by significantly more for women, narrowing the gender gap by 41 percent.
+    The effects are concentrated among women with no education beyond high school and among Black and
+    Hispanic women—groups that face the greatest barriers to financial inclusion. I examine two
+    mechanisms, and the evidence supports both. First, the mandate increases women's objective financial
+    knowledge, although not their self-assessed knowledge. Second, it improves economic outcomes by
+    increasing college completion, self-employment, and the likelihood of attaining middle-income status.
+    Because it reaches individuals before financial independence and does not rely on voluntary
+    participation, mandatory high school financial education can reduce persistent gender disparities in
+    financial inclusion that adult financial education programs have struggled to address.
 
 - title: "Restricting Large Firms to Protect Small Businesses: Evidence from Retail Operating-Day Restrictions"
   type: working_paper
-  paper: "/assets/papers/Mandatory_closure.pdf"
+  paper: "/assets/papers/LeeSujin_Paper_retail_shopping_day_restriction.pdf"
   authors:
     - name: "Marco Gonzalez-Navarro"
     - name: "Jaecheol Lee"
-  #status: "Submitted"
-  presentations: "UEA 2023 (Toronto), PacDev 2025, UEA 2025 (Berlin), Ohio State University"
+  status: "Submitted"
+  presentations: "Urban Economics Association 2023 (Toronto), Pacific Conference for Development Economics 2025, Urban Economics Association 2025 (Berlin), Ohio State University"
   abstract: "Governments often try to protect small businesses by restricting larger rivals rather than subsidizing them directly. Whether such policies achieve their objectives depends on how much displaced demand is actually transferred to the intended beneficiaries, a question that requires tracing substitution toward other days, locations, or unregulated sellers, yet direct evidence on these margins remains limited. We study South Korea's policy requiring large retail chains to close two days per month, which provides predetermined variation in closure schedules across districts and weeks. Using high-frequency card-transaction data, we estimate that only 18 percent of displaced spending is redirected to small, independent retailers; larger shares are recouped by restricted chains on other shopping days or diverted to other unrestricted retail formats, many of them operated by large firms. Consistent with these limited transfers, we find no evidence that the policy improves the long-run survival of independent retailers. Mapping the observed substitution patterns into a discrete-choice framework identified by policy-induced variation in travel time to open stores, we estimate that the consumer welfare losses from restricted access are 2.7 times larger than the gains accruing to independent retailers. These findings suggest that restricting large firms can impose meaningful consumer costs while providing little durable support to the small businesses such policies are intended to protect."
 
-- title: "Can Self-Employment Provide a Lifeline for Struggling Workers?"
+- title: "Inequality in Artificial Intelligence Training in Higher Education"
   type: work_progress
+  authors:
+    - name: "Saleh Zakerinia"
+    - name: "Bruce Weinberg"
+    - name: "Harrison Youn"
+    - name: "Tian Lou"
+    - name: "Aiday Sikhova"
+  presentations: "Association for Public Policy Analysis & Management 2026 (scheduled)"
+  abstract: >-
+    We examine the expansion of artificial intelligence (AI) education in higher education and its
+    distribution across students. Using administrative student-level course enrollment records from Ohio
+    public universities spanning more than two decades, we construct a novel measure of AI exposure. We
+    identify AI-related courses using large language model (LLM) classifications of course descriptions
+    and links to faculty engaged in AI research. To place the Ohio evidence in a broader context, we also
+    classify AI-related fields of study by applying the same LLM-based approach to program descriptions
+    and linking these classifications to Integrated Postsecondary Education Data System (IPEDS) data,
+    allowing us to examine the growth and composition of AI degree programs nationwide. We find that AI
+    education has expanded substantially over time, but not equally across students. Nationally, growth in
+    AI-related degree programs has been concentrated at research-intensive universities, while community
+    colleges have expanded more slowly and specialize in hardware- and infrastructure-related training.
+    Within Ohio, AI exposure has increased through both greater course availability and shifts in
+    students' major choices, but growth has been faster among men and students majoring in computer
+    science and engineering. Our findings highlight how higher education shapes the development of
+    AI-related human capital while reinforcing disparities before students enter the labor market.
 
-- title: "Long-Term Effects of Financial Education in High School on Business Ownership"
-  type: work_progress
-
-- title: "AI Adoption and Gender Disparities in the Workforce"
+- title: "AI-Related Human Capital Inflows and Gender Composition in Firms"
   type: work_progress
   authors:
     - name: "Tian Lou"
     - name: "Bruce Weinberg"
-  presentations: "U Chicago"
+  presentations: "University of Chicago"
+  abstract: >-
+    How does a business's exposure to AI influence gender disparities in its workforce? Building on the
+    idea that AI technology is transmitted through human capital, we track AI-trained researchers to
+    examine gender composition and wage gaps at firms that hire these researchers compared to those hiring
+    researchers in non-AI fields within the same narrowly defined industries. Using UMETRICS data, which
+    track payment records for all university research employees on grants, linked with Elsevier data on
+    grant information, we measure a grant's "AI intensity" based on the AI publication activity of its
+    principal investigators and an employee's "AI exposure" based on their duration and intensity of work
+    on these AI-related grants. We then follow these researchers into the workforce using Ohio UI Wage
+    Records and the Quarterly Census of Employment and Wages to identify businesses that are more likely
+    to have adopted advanced AI by hiring AI-trained researchers. We find that firms hiring AI-trained
+    researchers have a lower share of female employees and wider gender pay gaps, even among
+    non-AI-trained workers, compared to other firms in the same industries that do not hire AI-trained
+    researchers. We also find a clear gradient based on how many AI-trained researchers firms hired as
+    well as how much "AI exposure" AI-trained researchers had. These suggest that AI adoption can
+    influence gender disparities across the broader workforce, beyond AI researchers and those directly
+    involved in AI development or use.
+
+- title: "Self-Employment Following Job Loss and Subsequent Career Trajectories"
+  type: work_progress
+  abstract: >-
+    Job displacement is a major labor market shock that often leads workers to pursue self-employment. Yet
+    little is known about whether self-employment serves as a pathway back to stable employment or a
+    persistent departure from wage work. In this paper, I examine the post-displacement labor market
+    trajectories of workers who enter self-employment after job loss. Using the 1979 National Longitudinal
+    Survey of Youth (NLSY79), I compare displaced workers who transition into self-employment with similar
+    displaced workers who remain in wage employment. To improve comparability, I implement matching
+    methods based on pre-displacement earnings, employment histories, demographic characteristics, and
+    other labor market characteristics. I then examine differences in subsequent earnings, employment
+    stability, the duration of self-employment, and transitions back to wage employment. The findings have
+    implications on the role of self-employment in shaping workers' recovery following job displacement.
 
 - title: "The Effect of COVID-19 Stimulus Payments on Household Spending"
   type: pre_doc_pub

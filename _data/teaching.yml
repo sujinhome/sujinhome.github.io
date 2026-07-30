@@ -1,12 +1,12 @@
 - institution: "The Ohio State University"
   courses:
-    - name: "Principle of Microeconomics"
-      role: "Independent Instructor"
+    - name: "Principles of Microeconomics"
+      role: "Instructor of Record"
       term: "SU 2023"
-    - name: "Principle of Microeconomics"
+    - name: "Principles of Microeconomics"
       role: "Teaching Assistant"
       term: "FA 2023"
-    - name: "Principle of Macroeconomics"
+    - name: "Principles of Macroeconomics"
       role: "Teaching Assistant"
       term: "FA 2023"
     - name: "Health Economics"
@@ -18,9 +18,9 @@
 
 - institution: "Seoul National University"
   courses:
-    - name: "Economic History"
+    - name: "Population and Economy"
       role: "Teaching Assistant"
       term: "FA 2019, FA 2020"
-    - name: "Population and Economy"
+    - name: "Economic History"
       role: "Teaching Assistant"
       term: "SP 2020"

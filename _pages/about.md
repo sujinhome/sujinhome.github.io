@@ -18,9 +18,9 @@ profile:
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the Department of Economics at The Ohio State University. I am an applied microeconomist with research interests in **labor economics** and **entrepreneurship**. My current research focuses on the determinants of self-employment entry, exit, and outcomes, the effects of regulations on small businesses and consumers, and the measurement of skills.
+<span style="font-weight: 600;">I am on the 2026-2027 job market.</span>
 
-<!-- <span style="color: var(--global-theme-color);">I am on the 2026-2027 job market.</span> -->
+I am a PhD candidate in the Department of Economics at The Ohio State University. I am an applied microeconomist with research interests in **labor economics**, **entrepreneurship**, and **artificial intelligence (AI)**. In one line of research, I examine entrepreneurship and workers' career trajectories, focusing on how on-the-job skill acquisition shapes entrepreneurial entry, success, and adjustment following job displacement. In a second line of research, I study the development of AI-related human capital and its implications for firms and workers. Outside of these two main research agendas, I have also studied the effect of financial education on the gender gap in unbanked rates and the impact of policies restricting large retailers' operating days to support small businesses.
 
 <style>
 h1 {
@@ -35,7 +35,7 @@ h3 {
 <h1>Contact Information</h1>
 
 Email: <a href="mailto:lee.9962@osu.edu">lee.9962@osu.edu</a><br>
-Address: 311 Bricker Hall, 190 N Oval Mall, Columbus, OH 43210<br>
+Address: 252 Bricker Hall, 190 N Oval Mall, Columbus, OH 43210<br>
 
 <!-- end-intro -->
 
