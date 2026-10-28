@@ -64,26 +64,12 @@
   authors:
     - name: "Saleh Zakerinia"
     - name: "Harrison Youn"
+    - name: "Bruce Weinberg"
     - name: "Tian Lou"
     - name: "Aiday Sikhova"
-    - name: "Bruce Weinberg"
   presentations: "Association for Public Policy Analysis & Management 2026 (scheduled)"
-  # abstract: >-
-  #   We examine the expansion of artificial intelligence (AI) education in higher education and its
-  #   distribution across students. Using administrative student-level course enrollment records from Ohio
-  #   public universities spanning more than two decades, we construct a novel measure of AI exposure. We
-  #   identify AI-related courses using large language model (LLM) classifications of course descriptions
-  #   and links to faculty engaged in AI research. To place the Ohio evidence in a broader context, we also
-  #   classify AI-related fields of study by applying the same LLM-based approach to program descriptions
-  #   and linking these classifications to Integrated Postsecondary Education Data System (IPEDS) data,
-  #   allowing us to examine the growth and composition of AI degree programs nationwide. We find that AI
-  #   education has expanded substantially over time, but not equally across students. Nationally, growth in
-  #   AI-related degree programs has been concentrated at research-intensive universities, while community
-  #   colleges have expanded more slowly and specialize in hardware- and infrastructure-related training.
-  #   Within Ohio, AI exposure has increased through both greater course availability and shifts in
-  #   students' major choices, but growth has been faster among men and students majoring in computer
-  #   science and engineering. Our findings highlight how higher education shapes the development of
-  #   AI-related human capital while reinforcing disparities before students enter the labor market.
+  abstract: "We examine the expansion of artificial intelligence (AI) education in higher education and its distribution across students. Using administrative student-level course enrollment records from Ohio public universities spanning more than two decades, we construct a novel measure of AI exposure. We identify AI-related courses using large language model (LLM) classifications of course descriptions and links to faculty engaged in AI research. To place the Ohio evidence in a broader context, we also classify AI-related fields of study by applying the same LLM-based approach to program descriptions and linking these classifications to Integrated Postsecondary Education Data System (IPEDS) data, allowing us to examine the growth and composition of AI degree programs nationwide. Our findings have implications for how higher education shapes the development of AI-related human capital while reinforcing disparities before students enter the labor market."
+  # Hidden findings (insert before "Our findings have implications..." to restore): We find that AI education has expanded substantially over time, but not equally across students. Nationally, growth in AI-related degree programs has been concentrated at research-intensive universities, while community colleges have expanded more slowly and specialize in hardware- and infrastructure-related training. Within Ohio, AI exposure has increased through both greater course availability and shifts in students' major choices, but growth has been faster among men and students majoring in computer science and engineering.
 
 - title: "AI-Related Human Capital Inflows and Gender Composition in Firms"
   type: work_progress
