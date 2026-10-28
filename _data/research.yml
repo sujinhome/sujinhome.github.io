@@ -55,11 +55,11 @@
   authors:
     - name: "Marco Gonzalez-Navarro"
     - name: "Jaecheol Lee"
-  status: "Submitted"
+  status: "Under review"
   presentations: "Urban Economics Association 2023 (Toronto), Pacific Conference for Development Economics 2025, Urban Economics Association 2025 (Berlin), Ohio State University"
   abstract: "Governments often try to protect small businesses by restricting larger rivals rather than subsidizing them directly. Whether such policies achieve their objectives depends on how much displaced demand is actually transferred to the intended beneficiaries, a question that requires tracing substitution toward other days, locations, or unregulated sellers, yet direct evidence on these margins remains limited. We study South Korea's policy requiring large retail chains to close two days per month, which provides predetermined variation in closure schedules across districts and weeks. Using high-frequency card-transaction data, we estimate that only 18 percent of displaced spending is redirected to small, independent retailers; larger shares are recouped by restricted chains on other shopping days or diverted to other unrestricted retail formats, many of them operated by large firms. Consistent with these limited transfers, we find no evidence that the policy improves the long-run survival of independent retailers. Mapping the observed substitution patterns into a discrete-choice framework identified by policy-induced variation in travel time to open stores, we estimate that the consumer welfare losses from restricted access are 2.7 times larger than the gains accruing to independent retailers. These findings suggest that restricting large firms can impose meaningful consumer costs while providing little durable support to the small businesses such policies are intended to protect."
 
-- title: "Inequality in Artificial Intelligence Training in Higher Education"
+- title: "AI-Related Education Is Increasing and Widespread but Unequal"
   type: work_progress
   authors:
     - name: "Saleh Zakerinia"
@@ -67,7 +67,7 @@
     - name: "Bruce Weinberg"
     - name: "Tian Lou"
     - name: "Aiday Sikhova"
-  presentations: "Association for Public Policy Analysis & Management 2026 (scheduled)"
+  presentations: "Ohio State University, Association for Public Policy Analysis & Management 2026 (scheduled)"
   abstract: "We examine the expansion of artificial intelligence (AI) education in higher education and its distribution across students. Using administrative student-level course enrollment records from Ohio public universities spanning more than two decades, we construct a novel measure of AI exposure. We identify AI-related courses using large language model (LLM) classifications of course descriptions and links to faculty engaged in AI research. To place the Ohio evidence in a broader context, we also classify AI-related fields of study by applying the same LLM-based approach to program descriptions and linking these classifications to Integrated Postsecondary Education Data System (IPEDS) data, allowing us to examine the growth and composition of AI degree programs nationwide. Our findings have implications for how higher education shapes the development of AI-related human capital while reinforcing disparities before students enter the labor market."
   # Hidden findings (insert before "Our findings have implications..." to restore): We find that AI education has expanded substantially over time, but not equally across students. Nationally, growth in AI-related degree programs has been concentrated at research-intensive universities, while community colleges have expanded more slowly and specialize in hardware- and infrastructure-related training. Within Ohio, AI exposure has increased through both greater course availability and shifts in students' major choices, but growth has been faster among men and students majoring in computer science and engineering.
 
