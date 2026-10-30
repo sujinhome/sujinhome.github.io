@@ -13,21 +13,7 @@
   paper: "/assets/papers/LeeSujin_Paper_unbanked.pdf"
   presentations: "Ohio State University"
   abstract: >-
-    Among unpartnered young adults in the United States—whose banking status reflects their own financial
-    decisions rather than a partner's—women are significantly more likely than men to be unbanked, even
-    after accounting for income and education. I determine whether state-mandated high school personal
-    finance courses reduce this gender gap, and if so, through what mechanisms. Using the FDIC National
-    Survey of Unbanked and Underbanked Households (2009–2023) and a heterogeneity-robust
-    difference-in-differences estimator, I estimate that mandates reduce the likelihood of being unbanked
-    for both women and men, but by significantly more for women, narrowing the gender gap by 41 percent.
-    The effects are concentrated among women with no education beyond high school and among Black and
-    Hispanic women—groups that face the greatest barriers to financial inclusion. I examine two
-    mechanisms, and the evidence supports both. First, the mandate increases women's objective financial
-    knowledge, although not their self-assessed knowledge. Second, it improves economic outcomes by
-    increasing college completion, self-employment, and the likelihood of attaining middle-income status.
-    Because it reaches individuals before financial independence and does not rely on voluntary
-    participation, mandatory high school financial education can reduce persistent gender disparities in
-    financial inclusion that adult financial education programs have struggled to address.
+    Among unpartnered young adults in the United States—whose banking status reflects their own financial decisions rather than a partner's—women are significantly more likely than men to be unbanked, even after accounting for income and education. I determine whether state-mandated high school personal finance courses reduce this gender gap, and if so, through what mechanisms. Using the FDIC National Survey of Unbanked and Underbanked Households (2009–2023) and a heterogeneity-robust difference-in-differences estimator, I estimate that mandates reduce the likelihood of being unbanked for both women and men, but by significantly more for women, narrowing the gender gap by 42.9 percent. The effects are concentrated among women with no education beyond high school and among Black and Hispanic women—groups that face the greatest barriers to financial inclusion. I examine two mechanisms, and the evidence supports both. First, the mandates increase women's objective financial knowledge, although not their self-assessed knowledge. Second, the mandates increase self-employment among employed women, improve the likelihood of attaining middle-income status, and increase college completion. Because the mandates reach individuals before financial independence and do not rely on voluntary participation, mandatory high school financial education can reduce persistent gender disparities in financial inclusion that adult financial education programs have struggled to address.
 
 - title: "Restricting Large Firms to Protect Small Businesses: Evidence from Retail Operating-Day Restrictions"
   type: working_paper
@@ -101,6 +87,6 @@
   paper: "https://kea.ne.kr/eng/38/jrnl/18/4977/view"
   authors:
     - name: "Chulhee Lee"
-  journal: "The Korean Journal of Economics Studies"
+  journal: "The Korean Journal of Economic Studies"
   detail: "69(3), 2021, 5-54 (in Korean)."
   abstract: "This paper examines the household spending effects of child support payment coupons in South Korea, which were granted to subsidize households suffering from COVID-19. The results of difference-in-differences estimation suggest that child support payment coupons increased household spending by a weekly average of 22,355 South Korean Won (KRW) over 10 weeks, which is 8.8% of the treatment group's average consumption for the period of analysis. Child support payment coupons have positive impacts on supporting both children and small-scale business-owners. The effect on household spending is shown to be significantly larger for low-income households, compared to that of the top 20% of households. We find that coupon redemption replaces some of the household spending that would occur if there was no support from the government. The size of the net effect (weekly average of 22,355 KRW over 10 weeks) is determined by the difference between coupon redemption (57,620 KRW) and the size of the substitution effect (35,256 KRW). These results imply that the net effect of the coupons is estimated to be approximately 39% of the coupon redemption for 10 weeks. We also discuss the implications of our findings on the effects and design of government subsidies."
