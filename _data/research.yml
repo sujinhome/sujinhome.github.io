@@ -1,37 +1,17 @@
 # Order within each type is the order shown on the page.
 # Abstracts sit behind an [abstract ↓] toggle.
 
-- title: "[JMP] Beyond the Jack-of-All-Trades Hypothesis: The Importance of Business and Specialized Skills for Self-Employment Entry and Success"
+- title: "[JMP] Beyond the Jack-of-All-Trades Hypothesis: The Importance of Business and Specialized Skills for Business Ownership Entry and Success"
   type: working_paper
   paper: "/assets/papers/LeeSujin_JMP_beyond_JOAT_hypothesis.pdf"
   presentations: "Southern Economic Association 2025, Cleveland Fed–OSU Micro-Macro Workshop 2026, Ohio State University"
   abstract: >-
-    Lazear's (2004) jack-of-all-trades hypothesis holds that balanced skills promote both entry into and
-    success in entrepreneurship. A number of empirical analysts have tested this idea using occupation
-    counts or employer counts as a proxy for skill balance, while also defining entrepreneurship as any
-    form of self-employment. I introduce three extensions to this literature. First, I argue that what
-    matters is not "skill balance" per se, but two particular kinds of skill: business skills and the
-    specialized expertise a given business requires. Second, I argue that it is important to distinguish
-    between basic (unincorporated, low-capital) and advanced (incorporated, capital-intensive)
-    self-employment because the latter is more likely to approximate Lazear's concept of entrepreneurship.
-    Third, I argue that tests of Lazear's hypothesis should measure skill balance more directly. Using
-    nearly forty years of NLSY79 work histories linked to O*NET, I construct time-in-occupation-weighted
-    measures of business skills, specialized skills, and skill balance, and use them as key regressors in
-    models of the decision to transition into either basic or advanced self-employment, as well as models
-    of "success" (measured by earnings, revenue, and how spells end) of self-employment spells. I find
-    support for all three extensions. Skill content matters, and its payoff depends on the type of
-    business: business skills predict entry into advanced self-employment while discouraging entry into
-    basic self-employment, and raise revenue only among advanced businesses. Specialized skills reduce
-    entry into both types but are the strongest predictor of earnings and revenue among those who do
-    enter. Measured directly, skill balance predicts neither entry nor success. The conventional
-    occupation count, by contrast, does predict entry into basic self-employment, but partly because it
-    reflects involuntary job loss rather than accumulated skill. These findings imply that preparation for
-    business ownership comes from accumulating business and specialized skills, not from balance across
-    unrelated domains.
+    Lazear's well-known jack-of-all-trades (JOAT) model (2004, 2005) hypothesizes that business owners require balanced skills—an argument supported by numerous empirical studies, typically by showing that the number of prior occupations or employers held by workers is positively associated with business ownership. I extend the JOAT literature by arguing that (a) business owners do not need a balance of all skills, but instead need a set of business skills plus specialized skills relevant to their business; (b) business skills are likely to be more important for incorporated, capital-intensive, "advanced" businesses than for "basic" businesses; and (c) evidence in support of the JOAT hypothesis is likely to be sensitive to whether skill balance is measured directly or via orthodox, prior mobility measures. Using NLSY79 work histories linked to O*NET data to measure business skills, specialized skills, and skill balance, I find that all three arguments are supported by the data: business skills are strong predictors of entry into advanced (but not basic) business ownership; both business and specialized skills are associated with higher revenue and earnings for all business owners; and my direct measure of skill balance is unassociated with all three outcomes, whereas an orthodox (occupation count) measure strongly predicts entry into basic business ownership largely because it reflects involuntary job loss. In short, I find that business owners benefit from being jacks of business trades rather than jacks of all trades.
 
 - title: "Can a High School Personal Finance Course Reduce the Gender Gap in Being Unbanked?"
   type: working_paper
   paper: "/assets/papers/LeeSujin_Paper_unbanked.pdf"
+  presentations: "Ohio State University"
   abstract: >-
     Among unpartnered young adults in the United States—whose banking status reflects their own financial
     decisions rather than a partner's—women are significantly more likely than men to be unbanked, even
