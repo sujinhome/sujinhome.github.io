@@ -920,7 +920,10 @@ ul.research-list {
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.4s ease;
+    transition:
+      max-height 0.4s ease,
+      opacity 0.3s ease,
+      margin-top 0.4s ease;
     // No margin while collapsed: a zero-height box still spaces out the bullet
     // that follows it.
     margin-top: 0;
@@ -933,7 +936,6 @@ ul.research-list {
       opacity: 1;
       margin-top: 0.5rem;
     }
-
   }
 }
 

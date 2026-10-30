@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home 
+title: home
 permalink: /
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -30,7 +30,6 @@ h3 {
   font-size: 14px;
 }
 </style>
-
 
 <h1>Contact Information</h1>
 
