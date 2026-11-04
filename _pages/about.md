@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 <span style="font-weight: 600;">I am on the 2026-2027 job market.</span>
 
-I am a PhD candidate in the Department of Economics at The Ohio State University. I am an applied microeconomist with research interests in **labor economics**, **entrepreneurship**, and **artificial intelligence (AI)**. In one line of research, I examine entrepreneurship and workers' career trajectories, focusing on how on-the-job skill acquisition shapes entrepreneurial entry, success, and adjustment following job displacement. In a second line of research, I study the development of AI-related human capital and its implications for firms and workers. Outside of these two main research agendas, I have also studied the effect of financial education on the gender gap in unbanked rates and the impact of policies restricting large retailers' operating days to support small businesses.
+I am a PhD candidate in the Department of Economics at Ohio State University. I am an applied microeconomist with research interests in **labor economics**, **entrepreneurship**, and **artificial intelligence (AI)**. In one line of research, I examine entrepreneurship and workers' career trajectories, focusing on how on-the-job skill acquisition shapes entrepreneurial entry, success, and adjustment following job displacement. In a second line of research, I study the development of AI-related human capital and its implications for firms and workers. Outside of these two main research agendas, I have also studied the effect of financial education on the gender gap in unbanked rates and the impact of policies restricting large retailers' operating days to support small businesses.
 
 <style>
 h1 {
